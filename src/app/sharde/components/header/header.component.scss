@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 70px;
+
+  .left {
+
+    .logo {
+      h1 {
+        color: crimson;
+        font-weight: 900;
+        font-size: 27px;
+        cursor: pointer;
+      }
+    }
+  }
+  .right {
+    ul {
+
+      display: flex;
+      gap: 30px;
+    }
+    li {
+      list-style: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShardeModule } from './sharde/sharde.module';
+import { ProductsModule } from './products/products.module';
+import { CartsModule } from './carts/carts.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +13,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ShardeModule,
+    ProductsModule,
+    CartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
